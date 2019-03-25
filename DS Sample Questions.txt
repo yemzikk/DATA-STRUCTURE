@@ -1,0 +1,31 @@
+Part A: Data structure – Lab Questions
+1. Sort a given list of strings ZDATASOR.C (1)
+2. Reverse a string using pointers. ZDATAREV.C (2)
+3. Implement Pattern matching algorithm. ZDATAPAT.C (3)
+4. Search an element in the 2-dimensional array 
+5. Append 2 arrays ZDATAMER.C (4)
+6. Search an element in the array using linear search. 
+7. Search an element in the array using binary search. 
+8. Read a sparse matrix and display its triplet representation using array.
+9. Create a singly linked list of n nodes and display it. ZDATATES.C (5)
+10. Delete a given node from a singly linked list. ZDTLIDL.C (6)
+11. Sort a singly linked list. ZDTSLIN.C (7)
+12. Create a singly linked list and search an element from that list.
+13. Create a doubly linked list of integers and display in forward and backward direction.
+14. Addition of 2 polynomials using array.
+15. Implement Stack using array
+16. Implement Stack  using linked list
+17. Evaluation of postfix expression.
+18. Implement Queue using array.
+19. Implement Queue using linked list.
+20. Traverse a binary search tree  in preorder
+21. Traverse a binary search tree  in inorder
+22. Traverse a binary search tree in postorder.
+23. Search an element in a binary search tree
+24. Implement exchange sort
+25. Implement selection sort. 
+26. Implement insertion sort. 
+27. Implement quick sort. 
+
+
+
