@@ -1,31 +1,27 @@
 #include<stdio.h>
 #include<conio.h>
-int search(int mat[4][4],int n)
-{
-int i=0,j=n-1;
-while(i<n&&j>=0)
-{
-if(mat[i][j]==n)
-{
-printf("n found at %d,%d",i,j);
-return 1;
-}
-if(mat[i][j]>n)
-j--;
-else
-i++;
-}
-printf("n Element not Found");
-return 0;
-}
-void main()
-{
-int mat[4][4]={
-{1,2,3,4},
-{5,6,7,8},
-{9,10,11,12},
-{13,14,15,16},};
-clrscr();
-search(mat,15);
-getch();
-}
+ void main(){
+   int a[10][10],i,j,f=0,n,ele;
+   clrscr();
+   printf("Enter the Array Size: ");
+   scanf("%d", &n);
+   printf("Enter the Array Elements:\n");
+   for (i = 0; i < n; i++) {
+     for (j = 0; j < n; j++)
+       scanf("%d",&a[i][j] );
+   }
+   printf("Enter the item to Search\n");
+   scanf("%d",&ele);
+   for (i = 0; i < n; i++) {
+     for (j = 0; j < n; j++) {
+       if (a[i][j]==ele) {
+	 printf("Element present at the position [%d] [%d] ",i+1,j+1 );
+	 f=1;
+       }
+     }
+   }
+   if (f==0) {
+     printf("Element not Found");
+   }
+   getch();
+ }
