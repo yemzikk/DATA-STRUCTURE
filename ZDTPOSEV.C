@@ -30,10 +30,18 @@ void main()
 	    op1=pop();
 	    switch(ch)
 	    {
-	    case '+':push(op1+op2);break;
-	    case '-':push(op1-op2);break;
-	    case '*':push(op1*op2);break;
-	    case '/':push(op1/op2);break;
+	    case '+':
+			    push(op1+op2);
+			    break;
+	    case '-':
+			    push(op1-op2);
+			    break;
+	    case '*':
+			    push(op1*op2);
+			    break;
+	    case '/':
+			    push(op1/op2);
+			    break;
 	    }
 	}
     }
